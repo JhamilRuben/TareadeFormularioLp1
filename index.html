@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caso formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<section class="conta">
+<h1>Información sobre el producto</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <label for="a"> Nombre</label><br>
+            <input type="text" name="nombre" class="cajitauno" placeholder="" required><br><br>
+            <label for="a">Descripción</label><br>
+            <textarea name="" id="" cols="40" rows="10"></textarea><br><br>
+            <label for="a">Foto</label><br>
+            <input type="file" name="a" id="a"><br><br>
+            <input type="checkbox" name="a" id="a1">Añadir contador de vistas<br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Datos económicos</legend>
+            <label for="a">Precio</label>
+            <input type="text" name="Precio" class="cajitados" placeholder="" required>
+            <label for="a">Impuestos</label>
+            <select name="dpto" id="dpto" class="cajita">
+                <option value="a">4%</option>
+                <option value="1">7%</option>
+                <option value="2">16%</option>
+                <option value="3">25%</option>
+            </select><br><br>
+            <label for="a">Promoción</label><br>
+            <input type="radio" name="promocion">Ninguno<br>
+            <input type="radio" name="promocion">Transporte gratuito<br>
+            <input type="radio" name="promocion">Descuento 5%<br>
+        </fieldset>
+    </form>
+</section>
+</body>
+</html>
